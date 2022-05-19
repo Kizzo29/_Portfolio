@@ -1,6 +1,6 @@
 import React from "react";
 
-import { TabHeaderContainer, StylizedTab, StyledTabPanel, TabsHolder, InactiveTab } from "../styles/tabstyles"
+import { TabHeaderContainer, StylizedTab, StyledTabPanel, TabsHolder, InactiveTab } from "../../styles/tabstyles";
 
 
 export const Tab = ({label, active, onClick}) => {
