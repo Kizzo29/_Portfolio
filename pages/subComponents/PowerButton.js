@@ -54,7 +54,7 @@ display: none;
 const PowerButton = () => {
     return (
         <Power initial={{y:-200}} animate={{y:0}} transition={{delay:1, duration:1}}>
-        <Link href = "/MainPage">
+        <Link href = "/MainPage" passHref>
         <PowerBtn width={30} height={30} fill='currentColor'/>
         </Link>
         </Power>

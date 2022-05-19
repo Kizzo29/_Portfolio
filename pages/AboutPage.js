@@ -389,13 +389,13 @@ export default function AboutPage() {
       <Envelope width={30} height={30}/>
       <h4>Email</h4>
       <h5>kasemablack@gmail.com</h5>
-      <a href='mailto:kasemablackgmail.com' target="_blank">Send a message</a>
+      <a href='mailto:kasemablackgmail.com' target="_blank" rel='noreferrer'>Send a message</a>
       </ContactOption>
       <ContactOption>
       <Twitter width={30} height={30}/>
       <h4>Whatsapp</h4>
       <h5>+265881620329</h5>
-      <a href='https://api.whatsapp.com/send?phone=+265881620329' target="_blank">Send a message</a>
+      <a href='https://api.whatsapp.com/send?phone=+265881620329' target="_blank" rel='noreferrer'>Send a message</a>
       </ContactOption>
    </ContactOptions>
    <ProfileBorder>

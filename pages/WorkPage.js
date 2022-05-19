@@ -31,11 +31,10 @@ overflow: hidden;
   
 }
 @media ${device.tablet}{
-  overflow: auto;
-  height: 200vh;
+
 }
 @media ${device.mobile}{
-  
+
 }
 
 `
@@ -62,11 +61,8 @@ left:  calc(4.3rem + 15vw);;
   overflow: visible;
 }
 @media ${device.mobile}{
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  top: 2.5rem;
-  left:  calc(2.7rem + 10vw);
+  top: 3rem;
+  left:  calc(2.5rem + 10vw);
 }
 
 `
@@ -182,11 +178,11 @@ export default function WorkPage({work}) {
 }, [])
     return <motion.div exit={{opacity:0}}>
         <ThemeProvider theme={SoloTheme}>
-        <Box>
+        <PowerButton/>
         <BubbleParticles/>
-      {showLinks ? null : <MenuBox><MenuBar handleClick={handleClick} name="Work"/></MenuBox>}
-      <PowerButton/>
         <SocialIcons/>
+        <Box>
+      {showLinks ? null : <MenuBox><MenuBar handleClick={handleClick} name="Work"/></MenuBox>}
          <Main ref={ref} variants={container} initial='hidden' animate='show'>
          {
         work.map( 

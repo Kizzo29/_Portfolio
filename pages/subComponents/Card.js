@@ -6,7 +6,6 @@ import { SoloTheme } from '../../styles/Theme';
 import "@fontsource/raleway"
 import "@fontsource/roboto-mono"
 import { device } from './device';
-import Image from 'next/image';
 
 
 const Box = styled(motion.li)` 
@@ -119,6 +118,11 @@ padding-top: 1.5rem;
 font-family: "Roboto Mono", monospace;
 display:flex;
 flex-wrap:wrap;
+
+@media ${device.tablet}{
+  padding-top: 0.9rem;
+  margin-bottom: 1rem;
+}
 `
 const Tag = styled.span`
 margin-right:1rem;

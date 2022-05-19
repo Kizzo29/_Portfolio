@@ -38,10 +38,12 @@ padding-bottom: ${props => props.click ? '2.5rem' : ''};
 @media ${device.tablet}{
   flex-direction: column;
   justify-content: space-between;
-  overflow: visible;
+  overflow: scroll;
 }
 @media ${device.mobile}{
-  
+    flex-direction: column;
+  justify-content: space-between;
+   overflow: scroll;
 }
 
 `
@@ -87,9 +89,10 @@ border-radius: 20px;
 }
 @media ${device.tablet}{
   margin-top: 2rem;
+  width: 38vw;
 }
 @media ${device.mobile}{
-  
+    width: 46vw;
 }
 
 `

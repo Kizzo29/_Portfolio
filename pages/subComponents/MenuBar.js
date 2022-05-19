@@ -162,9 +162,9 @@ useEffect(() => {
          <Bar opacity={1 - opacity}/>      
         </MenuBarContainer>
 
-      <Link href='/AboutPage'><MenuItem onClick={() => {setActiveTabs('About')}} z={90 * toggle} opacity={opacity}><span>About</span></MenuItem></Link>
-      <Link href='/WorkPage'><MenuItem  onClick={() => {setActiveTabs('Work')}} z={60 * toggle} opacity={opacity}><span>Work</span></MenuItem></Link>
-       <Link href='/MySkillsPage'><MenuItem  onClick={() => {setActiveTabs('Skills')}} z={0 * toggle} opacity={opacity}><span>Skills</span></MenuItem></Link>
+      <Link href='/AboutPage' passHref><MenuItem onClick={() => {setActiveTabs('About')}} z={90 * toggle} opacity={opacity}><span>About</span></MenuItem></Link>
+      <Link href='/WorkPage' passHref><MenuItem  onClick={() => {setActiveTabs('Work')}} z={60 * toggle} opacity={opacity}><span>Work</span></MenuItem></Link>
+       <Link href='/MySkillsPage' passHref><MenuItem  onClick={() => {setActiveTabs('Skills')}} z={0 * toggle} opacity={opacity}><span>Skills</span></MenuItem></Link>
         </>
 }
 

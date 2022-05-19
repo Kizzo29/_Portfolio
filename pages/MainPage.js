@@ -525,7 +525,7 @@ const item = {
             <motion.span  key = {id}> &nbsp;{letter}</motion.span>
             </motion.span>
      else if(letter === 'S') return <motion.span> 
-     <motion.span key={id} > &nbsp;{letter}</motion.span>
+     <motion.span key={id}> &nbsp;{letter}</motion.span>
      </motion.span>
      
      else if(letter === 'k') return <motion.span> 
@@ -534,14 +534,14 @@ const item = {
 
     
        return(
-      <motion.span> 
-      <motion.span key={id} >{letter}</motion.span>
+      <motion.span key={id}> 
+      <motion.span key={id}>{letter}</motion.span>
       </motion.span>
      )})}
       </motion.p>
 
      {showComponents &&  <motion.h1 variants={list} initial='hidden' animate='visible'>{text2.split("").map((letter, id) => (
-                                    <motion.span  variants={item}>
+                                    <motion.span  variants={item} key={id}>
                                     <motion.span key = {id}  variants={spanVariants} initial="visible" whileHover="hover">
                                     {letter}</motion.span>
                                     </motion.span>
@@ -549,7 +549,7 @@ const item = {
 
 { showComponents && <motion.h1 variants={list} initial='hidden' animate='visible'>
 { text3.split("").map((letter, id) => (
- <motion.span variants={item}> 
+ <motion.span variants={item} key={id}> 
  <motion.span  key = {id} variants={spanVariants} initial="visible" whileHover="hover">{letter}</motion.span>
  </motion.span>
 ))}
@@ -569,7 +569,7 @@ const item = {
       {showComponents ? null : <Logo/>}
   <ELink href='mailto:kasemablackgmail.com'   initial={{x: 50, opacity:0}}
       animate={{opacity:1, x: 0}}
-        transition={{ type: 'spring', duration:2, delay:1 }} target="_blank">
+        transition={{ type: 'spring', duration:2, delay:1 }} target="_blank" rel='noreferrer'>
   <Envelope fill= {SoloTheme.text} width= {20} height={20}/>
   <p>Hire Me</p>
   </ELink>
@@ -581,7 +581,7 @@ const item = {
    <Logo/>
     </RightContainer>
 
-  {showLinks ? null : <Contact  href='mailto:kasemablackgmail.com' target= "_blank">
+  {showLinks ? null : <Contact  href='mailto:kasemablackgmail.com' target= "_blank" rel='noreferrer'>
       <motion.h2 
       initial={{
           y:-200,
@@ -598,7 +598,7 @@ const item = {
       </motion.h2>
       </Contact>}
       
-      {showLinks ? null :  <Link href= "/WorkPage"> 
+      {showLinks ? null :  <Link href= "/WorkPage" passHref> 
       <Work onClick={() => setActiveTabs("/WorkPage")}>
       <motion.h2 
       initial={{
@@ -619,7 +619,7 @@ const item = {
     }
 
       {showLinks ? null :   <BottomBar>
-       <Link  href= "/AboutPage">
+       <Link  href= "/AboutPage" passHref>
       <About  onClick={() => setActiveTabs("/AboutPage")}>
       <motion.h2 
       initial={{
@@ -638,7 +638,7 @@ const item = {
       </About>
       </Link>
 
-      <Link  href= "/MySkillsPage">
+      <Link  href= "/MySkillsPage" passHref>
       <Skills  onClick={() => setActiveTabs("/MySkillsPage")}>
       <motion.h2 
       initial={{

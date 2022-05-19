@@ -141,7 +141,7 @@ export const SocialIcons = (props) => {
         initial={{transform:"scale(0)"}}
         animate={{scale:[0,1,1.5,1]}}
         transition={{type:'spring', duration:1, delay:1}}>
-        <Link style = {{color:'inherit'}} target="_blank" href = {{pathname: "https://github.com/Kizzo29"}}>
+        <Link style = {{color:'inherit'}} target="_blank" href = {{pathname: "https://github.com/Kizzo29"}} passHref>
         <Github width = {25} height = {25} fill = {SoloTheme.text} className='icon' />
         </Link>
         </motion.div>
@@ -153,7 +153,7 @@ export const SocialIcons = (props) => {
         animate={{scale:[0,1,1.5,1]}}
         transition={{type:'spring', duration:1, delay:1.2}}
         >
-        <Link  style = {{color:'inherit'}} target="_blank" href = {{pathname: "https://twitter.com/blacmahn"}}>
+        <Link  style = {{color:'inherit'}} target="_blank" href = {{pathname: "https://twitter.com/blacmahn"}} passHref>
         <Twitter width = {25} height = {25} fill = {SoloTheme.text} className='icon' />
         </Link>
         </motion.div>
@@ -164,7 +164,7 @@ export const SocialIcons = (props) => {
         animate={{scale:[0,1,1.5,1]}}
         transition={{type:'spring', duration:1, delay:1.4}}
         >
-        <Link  style = {{color:'inherit'}}  target="_blank" href = {{pathname: "https://web.facebook.com/victor.kasema"}}>
+        <Link  style = {{color:'inherit'}}  target="_blank" href = {{pathname: "https://web.facebook.com/victor.kasema"}} passHref>
         <Facebook width = {25} height = {25} fill = {SoloTheme.text} className='icon' />
         </Link>
         </motion.div>
@@ -177,7 +177,7 @@ export const SocialIcons = (props) => {
         animate={{scale:[0,1,1.5,1]}}
         transition={{type:'spring', duration:1, delay:1.6}}
         >
-        <Link  style = {{color:'inherit'}}  target="_blank" href = {{pathname: "https://www.linkedin.com/in/black-kasema-0388121b5/"}}>
+        <Link  style = {{color:'inherit'}}  target="_blank" href = {{pathname: "https://www.linkedin.com/in/black-kasema-0388121b5/"}} passHref>
         <LinkedIn width = {25} height = {25} fill = {SoloTheme.text} className='icon'/>
         </Link>
         </motion.div>
