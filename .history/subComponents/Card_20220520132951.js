@@ -140,7 +140,7 @@ flex-wrap:wrap;
 }
 
 @media ${device.smallmobile}{
-  padding-top: 0.7rem;
+  padding-top: 0.5rem;
 }
 `
 const Tag = styled.span`
@@ -274,8 +274,8 @@ font-family: "Raleway", sans-serif;
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  margin-bottom: 0.3rem;
+@media ${device.mobile}{
+  
 }
 
 `

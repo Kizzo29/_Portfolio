@@ -219,7 +219,7 @@ img{
 @media ${device.smallmobile}{
 
   img{
-  width: 77px;
+  width: 80px;
   margin-right: 0.5rem;
   object-fit: contain;
  
@@ -274,8 +274,8 @@ font-family: "Raleway", sans-serif;
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  margin-bottom: 0.3rem;
+@media ${device.mobile}{
+  
 }
 
 `

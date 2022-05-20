@@ -24,8 +24,8 @@ z-index: 3;
 
 }
 
-@media ${device.smallmobile}{
-left:1rem
+@media ${device.laptop}{
+
 }
 
 @media ${device.tablet}{

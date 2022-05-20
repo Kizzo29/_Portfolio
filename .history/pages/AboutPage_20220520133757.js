@@ -75,9 +75,8 @@ transition: left 2s ease-out;
   height: 57vh;
 }
 @media ${device.smallmobile}{
-  width: 69vw;
+  width: 68vw;
   top: 3rem;
-  height: 57vh;
 
 }
 
@@ -98,7 +97,7 @@ font-family: "Raleway", sans-serif;
   
 }
 @media ${device.mobile}{
-  flex-direction: column;
+  
 }
 
 `
@@ -176,9 +175,8 @@ span{
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  margin-left: 0.5rem;
-  font-size: 0.6em;
+@media ${device.mobile}{
+
 
 }
 
@@ -204,7 +202,6 @@ justify-content: space-evenly;
 }
 @media ${device.smallmobile}{
   margin-right: 2rem ; 
-  width: 60%;
 }
 
 `
@@ -301,11 +298,9 @@ height: 109px;
 }
 
 @media ${device.smallmobile}{
-  width: 107px;
-height: 107px;
-margin-right: 1rem;
+  width: 109px;
+height: 109px;
 }
-
 
 `
 

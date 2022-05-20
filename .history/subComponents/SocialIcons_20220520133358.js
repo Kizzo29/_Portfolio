@@ -23,16 +23,20 @@ z-index: 3;
 @media ${device.laptop}{
 
 }
-
-@media ${device.smallmobile}{
-left:1rem
-}
-
 @media ${device.tablet}{
   bottom: 22%;
 }
 
 @media ${device.mobile} {
+    bottom: 22%;
+    margin: 0.5rem 0;
+}
+
+&>*:not(:last-child) {
+margin: 0.5rem 0;
+}
+
+@media ${device.smallmobile} {
     bottom: 22%;
     margin: 0.5rem 0;
 }

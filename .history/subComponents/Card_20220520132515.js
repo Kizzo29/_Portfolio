@@ -139,8 +139,9 @@ flex-wrap:wrap;
   margin-bottom: 1rem;
 }
 
-@media ${device.smallmobile}{
-  padding-top: 0.7rem;
+@media ${device.small}{
+  padding-top: 0.9rem;
+  margin-bottom: 1rem;
 }
 `
 const Tag = styled.span`
@@ -217,9 +218,8 @@ img{
 }
 
 @media ${device.smallmobile}{
-
   img{
-  width: 77px;
+  width: 80px;
   margin-right: 0.5rem;
   object-fit: contain;
  
@@ -274,8 +274,8 @@ font-family: "Raleway", sans-serif;
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  margin-bottom: 0.3rem;
+@media ${device.mobile}{
+  
 }
 
 `

@@ -23,11 +23,6 @@ z-index: 3;
 @media ${device.laptop}{
 
 }
-
-@media ${device.smallmobile}{
-left:1rem
-}
-
 @media ${device.tablet}{
   bottom: 22%;
 }

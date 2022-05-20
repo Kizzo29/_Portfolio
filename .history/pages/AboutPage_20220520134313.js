@@ -77,7 +77,6 @@ transition: left 2s ease-out;
 @media ${device.smallmobile}{
   width: 69vw;
   top: 3rem;
-  height: 57vh;
 
 }
 
@@ -98,7 +97,7 @@ font-family: "Raleway", sans-serif;
   
 }
 @media ${device.mobile}{
-  flex-direction: column;
+  
 }
 
 `
@@ -178,7 +177,7 @@ span{
 }
 @media ${device.smallmobile}{
   margin-left: 0.5rem;
-  font-size: 0.6em;
+
 
 }
 

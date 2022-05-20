@@ -46,7 +46,7 @@ const SoundBar = styled(motion.div)`
   
 }
 @media ${device.smallmobile}{
-  left: 0.7rem;
+  left: 1rem;
 }
 
 `

@@ -275,7 +275,7 @@ font-family: "Raleway", sans-serif;
   
 }
 @media ${device.smallmobile}{
-  margin-bottom: 0.3rem;
+  mar
 }
 
 `
