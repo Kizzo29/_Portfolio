@@ -209,12 +209,8 @@ top: 8rem;
 }
 
 @media ${device.smallmobile} {
-  display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
-  top: 5rem;
-  left: 0.7rem;
+  top: 4rem;
+  left: 1rem;
   right: 0.01rem;
 }
 

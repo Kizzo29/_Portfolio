@@ -64,17 +64,3 @@ backdrop-filter: blur(15px);
         
     }
     }
-
-    @media (max-width: 393px) {
-        .navbar{
-            gap: 0.6rem;
-            padding:0.9rem 1.2rem; 
-        }
-        .navbar a{
-          
-        }
-        
-        .navbar a.active{
-            
-        }
-        }

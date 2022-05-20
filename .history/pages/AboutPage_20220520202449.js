@@ -178,7 +178,7 @@ span{
 }
 @media ${device.smallmobile}{
   margin-left: 0.5rem;
-  font-size: 0.69em;
+  font-size: 0.65em;
 
 }
 

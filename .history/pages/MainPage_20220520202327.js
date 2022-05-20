@@ -214,7 +214,7 @@ top: 8rem;
  align-items: center;
  justify-content: center;
   top: 5rem;
-  left: 0.7rem;
+  left: 1rem;
   right: 0.01rem;
 }
 

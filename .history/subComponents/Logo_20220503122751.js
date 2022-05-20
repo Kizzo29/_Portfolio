@@ -18,8 +18,8 @@ margin-left: 7rem;
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  margin-left: 12rem;
+@media ${device.mobile}{
+  
 }
 
 .myLogo{
@@ -34,7 +34,7 @@ margin-left: 7rem;
 }
 @media ${device.tablet}{
   width: 180pt;
-height: 180pt;
+  height: 180pt;
   margin-right: 8.5rem;
  
 }
