@@ -208,11 +208,6 @@ top: 8rem;
   left: 1rem;
 }
 
-@media ${device.smallmobile} {
-  top: 4rem;
-  left: 1rem;
-  right: 0.01rem;
-}
 
 `
 const RightContainer = styled.div` 

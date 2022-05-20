@@ -210,7 +210,7 @@ top: 8rem;
 
 @media ${device.smallmobile} {
   top: 4rem;
-  left: 1rem;
+  left: 0.5;
   right: 0.01rem;
 }
 

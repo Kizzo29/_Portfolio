@@ -212,7 +212,7 @@ img{
 }
 }
 
-@media ${device.smallmobile}{
+@media ${device.mobile}{
   img{
   width: 80px;
   margin-right: 0.5rem;

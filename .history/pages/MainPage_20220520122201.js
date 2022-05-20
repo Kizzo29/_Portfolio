@@ -207,13 +207,6 @@ top: 8rem;
   top: 4rem;
   left: 1rem;
 }
-
-@media ${device.smallmobile} {
-  top: 4rem;
-  left: 1rem;
-  right: 0.01rem;
-}
-
 `
 const RightContainer = styled.div` 
 position: absolute;
@@ -342,7 +335,7 @@ h1{
 }
 }
 
-@media ${device.smallmobile} {
+@media ${device.mobile} {
   justify-content: center;
  &>*:first-child{
   font-size: 0.7rem;

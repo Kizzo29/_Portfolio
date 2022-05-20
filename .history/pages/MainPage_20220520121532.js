@@ -16,7 +16,7 @@ import { useRouter } from 'next/router'
 
 
 const MainContainer = styled.div` 
-background-color: ${SoloTheme.body};
+background-color: blac;
 overflow: hidden;
 width: 100vw;
 height: 100vh;
@@ -207,13 +207,6 @@ top: 8rem;
   top: 4rem;
   left: 1rem;
 }
-
-@media ${device.smallmobile} {
-  top: 4rem;
-  left: 1rem;
-  right: 0.01rem;
-}
-
 `
 const RightContainer = styled.div` 
 position: absolute;
@@ -340,16 +333,10 @@ h1{
   &>*:not(:first-child) {
   font-size: 2.5rem;
 }
-}
 
-@media ${device.smallmobile} {
-  justify-content: center;
- &>*:first-child{
-  font-size: 0.7rem;
-  }
-  &>*:not(:first-child) {
-  font-size: 2.5rem;
-}
+
+
+
 }
 `
 

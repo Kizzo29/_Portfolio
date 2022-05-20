@@ -207,13 +207,6 @@ top: 8rem;
   top: 4rem;
   left: 1rem;
 }
-
-@media ${device.smallmobile} {
-  top: 4rem;
-  left: 1rem;
-  right: 0.01rem;
-}
-
 `
 const RightContainer = styled.div` 
 position: absolute;
@@ -283,7 +276,7 @@ span{
 
 h1{
   font-size: 2.5rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   color: #fece00;
   -webkit-text-fill-color: transparent;
@@ -340,16 +333,10 @@ h1{
   &>*:not(:first-child) {
   font-size: 2.5rem;
 }
-}
 
-@media ${device.smallmobile} {
-  justify-content: center;
- &>*:first-child{
-  font-size: 0.7rem;
-  }
-  &>*:not(:first-child) {
-  font-size: 2.5rem;
-}
+
+
+
 }
 `
 

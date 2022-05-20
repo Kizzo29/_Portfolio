@@ -208,10 +208,13 @@ top: 8rem;
   left: 1rem;
 }
 
-@media ${device.smallmobile} {
+@media ${device.mobile} {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
   top: 4rem;
   left: 1rem;
-  right: 0.01rem;
 }
 
 `

@@ -92,7 +92,7 @@ height: 18rem;
   flex-direction: column;
 }
 
-@media ${device.smallmobile}{
+@media ${device.mobile}{
   flex-direction: column;
 }
 
@@ -117,11 +117,6 @@ font-family: "Raleway", sans-serif;
   
 }
 @media ${device.mobile}{
-  font-size: 0.6rem;
-  width: 100%;
-}
-
-@media ${device.smallmobile}{
   font-size: 0.6rem;
   width: 100%;
 }
@@ -204,15 +199,6 @@ img{
 }
 }
 @media ${device.mobile}{
-  img{
-  width: 80px;
-  margin-right: 0.5rem;
-  object-fit: contain;
- 
-}
-}
-
-@media ${device.smallmobile}{
   img{
   width: 80px;
   margin-right: 0.5rem;

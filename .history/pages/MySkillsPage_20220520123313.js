@@ -95,7 +95,7 @@ border-radius: 20px;
     width: 46vw;
 }
 
-@media ${device.smallmobile}{
+@media ${device.mobile}{
     width: 46vw;
 }
 

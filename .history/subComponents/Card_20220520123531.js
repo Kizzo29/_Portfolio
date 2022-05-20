@@ -212,15 +212,6 @@ img{
 }
 }
 
-@media ${device.smallmobile}{
-  img{
-  width: 80px;
-  margin-right: 0.5rem;
-  object-fit: contain;
- 
-}
-}
-
 `
 
 

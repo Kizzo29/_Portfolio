@@ -259,12 +259,7 @@ font-weight: lighter;
   
 }
 @media ${device.smallmobile}{
-  font-size: 0.7em;
-  padding: 1.2rem;
-  &>*:nth-child(1){
-    width: 18pt;
-    height: 18pt;
-}
+  
 }
 
 `

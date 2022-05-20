@@ -258,13 +258,8 @@ font-weight: lighter;
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  font-size: 0.7em;
-  padding: 1.2rem;
-  &>*:nth-child(1){
-    width: 18pt;
-    height: 18pt;
-}
+@media ${device.mobile}{
+  
 }
 
 `
@@ -295,7 +290,7 @@ height: 150px;
 height: 109px;
 }
 
-@media ${device.smallmobile}{
+@media ${device.mobile}{
   width: 109px;
 height: 109px;
 }
@@ -333,14 +328,6 @@ img{
 }
 
 @media ${device.mobile}{
-  width: 107px;
-height: 107px;
-img{
-   width: 90px;
- }
-}
-
-@media ${device.smallmobile}{
   width: 107px;
 height: 107px;
 img{

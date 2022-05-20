@@ -121,11 +121,6 @@ font-family: "Raleway", sans-serif;
   width: 100%;
 }
 
-@media ${device.smallmobile}{
-  font-size: 0.6rem;
-  width: 100%;
-}
-
 `
 
 const Tags = styled.div`
@@ -204,15 +199,6 @@ img{
 }
 }
 @media ${device.mobile}{
-  img{
-  width: 80px;
-  margin-right: 0.5rem;
-  object-fit: contain;
- 
-}
-}
-
-@media ${device.smallmobile}{
   img{
   width: 80px;
   margin-right: 0.5rem;

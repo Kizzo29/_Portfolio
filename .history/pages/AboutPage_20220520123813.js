@@ -258,13 +258,8 @@ font-weight: lighter;
 @media ${device.tablet}{
   
 }
-@media ${device.smallmobile}{
-  font-size: 0.7em;
-  padding: 1.2rem;
-  &>*:nth-child(1){
-    width: 18pt;
-    height: 18pt;
-}
+@media ${device.mobile}{
+  
 }
 
 `
@@ -340,7 +335,7 @@ img{
  }
 }
 
-@media ${device.smallmobile}{
+@media ${device.mobile}{
   width: 107px;
 height: 107px;
 img{
