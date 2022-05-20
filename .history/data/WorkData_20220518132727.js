@@ -7,8 +7,8 @@ export const Work = [
         tags:["Project still in progress"],
         src:'/Friendy.png',
         src2:'/Friendyy.png',
-        demo:"https://github.com/Kizzo29/flutter_social_app/tree/master",
-        github:"https://github.com/Kizzo29/flutter_social_app/tree/master"
+        demo:"https://github.com/Kizzo29",
+        github:"https://github.com/Kizzo29"
     },
     {
         id:2,
@@ -17,9 +17,9 @@ export const Work = [
         description:"This is a serverside next js website, with Styled-components and css",
         tags:[],
         src2:'/Skills.png',
-        src:'/MediaQuery.png',
-        demo:"portfolio-weld-delta-63.vercel.app",
-        github:"https://github.com/Kizzo29/_Portfolio"
+        src:'/Friendyy.png',
+        demo:"https://github.com/Kizzo29",
+        github:"https://github.com/Kizzo29"
         
     },
   

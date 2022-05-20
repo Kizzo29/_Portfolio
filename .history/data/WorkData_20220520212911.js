@@ -18,7 +18,7 @@ export const Work = [
         tags:[],
         src2:'/Skills.png',
         src:'/MediaQuery.png',
-        demo:"portfolio-weld-delta-63.vercel.app",
+        demo:"/MainPage",
         github:"https://github.com/Kizzo29/_Portfolio"
         
     },
