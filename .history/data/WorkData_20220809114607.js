@@ -23,7 +23,7 @@ export const Work = [
         github:"https://github.com/Kizzo29/flutter_social_app/tree/master"
     },
     {
-        id:3,
+        id:2,
         heading:"My",
         name:"Portfolio website",
         description:"This is a serverside next js website, with Styled-components and css",

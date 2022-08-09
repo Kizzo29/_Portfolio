@@ -12,7 +12,7 @@ export const Work = [
         
     },
     {
-        id:2,
+        id:3,
         heading:"Mobile",
         name:"Chat App",
         description:"This is a flutter application for both iOS and Android, with Dart,Nodejs,Mysql and Rethink database for the backend.",
@@ -23,7 +23,7 @@ export const Work = [
         github:"https://github.com/Kizzo29/flutter_social_app/tree/master"
     },
     {
-        id:3,
+        id:2,
         heading:"My",
         name:"Portfolio website",
         description:"This is a serverside next js website, with Styled-components and css",

@@ -1,18 +1,6 @@
 export const Work = [
     {
         id:1,
-        heading:"Malonda",
-        name:"E-commerce website",
-        description:"This is a full-stack ecommerce website using Reactjs, Nextjs for the frontend and Sanity.io for content management",
-        tags:[],
-        src2:'/Malonda2.png',
-        src:'/Malonda1.png',
-        demo:"portfolio-weld-delta-63.vercel.app",
-        github:"https://github.com/Kizzo29/_Portfolio"
-        
-    },
-    {
-        id:2,
         heading:"Mobile",
         name:"Chat App",
         description:"This is a flutter application for both iOS and Android, with Dart,Nodejs,Mysql and Rethink database for the backend.",
@@ -23,7 +11,7 @@ export const Work = [
         github:"https://github.com/Kizzo29/flutter_social_app/tree/master"
     },
     {
-        id:3,
+        id:2,
         heading:"My",
         name:"Portfolio website",
         description:"This is a serverside next js website, with Styled-components and css",
@@ -34,6 +22,17 @@ export const Work = [
         github:"https://github.com/Kizzo29/_Portfolio"
         
     },
-    
+    {
+        id:3,
+        heading:"Malonda",
+        name:"E-commerce website",
+        description:"This is a full-stack ecommerce website using Reactjs, Nextjs for the frontend and Sanity.io for content management",
+        tags:[],
+        src2:'/Malonda.png',
+        src:'/.png',
+        demo:"portfolio-weld-delta-63.vercel.app",
+        github:"https://github.com/Kizzo29/_Portfolio"
+        
+    },    
   
 ] 
