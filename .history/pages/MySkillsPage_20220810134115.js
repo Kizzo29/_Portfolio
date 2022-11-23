@@ -92,11 +92,11 @@ border-radius: 20px;
 @media ${device.tablet}{
   margin-top: 2rem;
   width: 38vw;
+  
 }
 @media ${device.mobile}{
     width: 46vw;
     margin-bottom: 2.3rem;
-
 }
 
 @media ${device.smallmobile}{
