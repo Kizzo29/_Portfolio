@@ -1,9 +1,21 @@
 export const Work = [
     {
         id:1,
+        heading:"Web",
+        name:"Chat App",
+        description:"This is a full-stack chat application using MySQL, Nodejs, JWT authentication and Reactjs in both dark and light mode.",
+        tags:[],
+        src2:'/chatty_social.png',
+        src:'',
+        demo:"https://github.com/Kizzo29/chatApp",
+        github:"https://github.com/Kizzo29/chatApp"
+        
+    },
+    {
+        id:2,
         heading:"Malonda",
         name:"E-commerce website",
-        description:"This is a full-stack ecommerce website using Reactjs, Nextjs for the frontend and Sanity.io for content management",
+        description:"This is a full-stack ecommerce website using Reactjs, Nextjs for the frontend and Sanity.io for content management.",
         tags:[],
         src2:'/Malonda2.png',
         src:'/Malonda1.png',
@@ -12,7 +24,7 @@ export const Work = [
         
     },
     {
-        id:2,
+        id:3,
         heading:"Mobile",
         name:"Chat App",
         description:"This is a flutter application for both iOS and Android, with Dart,Nodejs,Mysql and Rethink database for the backend.",
@@ -23,7 +35,7 @@ export const Work = [
         github:"https://github.com/Kizzo29/flutter_social_app/tree/master"
     },
     {
-        id:3,
+        id:4,
         heading:"My",
         name:"Portfolio website",
         description:"This is a serverside next js website, with Styled-components and css",
