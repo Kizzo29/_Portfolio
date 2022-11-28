@@ -7,8 +7,8 @@ export const Work = [
         tags:[],
         src2:'/chatty_social.png',
         src:'',
-        demo:"https://github.com/Kizzo29/chatApp",
-        github:"https://github.com/Kizzo29/chatApp"
+        demo:"https://github.com/Kizzo29/SocialApp",
+        github:"https://github.com/Kizzo29/SocialApp"
         
     },
     {
