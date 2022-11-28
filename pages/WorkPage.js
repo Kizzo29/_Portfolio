@@ -17,7 +17,7 @@ import Nav from '../subComponents/Nav'
 
 const Box = styled.div` 
 background-color: ${SoloTheme.body};
-height: 500vh;
+height: 600vh;
 position: relative;
 display: flex;
 align-items: center;
