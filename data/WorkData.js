@@ -2,7 +2,7 @@ export const Work = [
     {
         id:1,
         heading:"Web",
-        name:"Chat App",
+        name:"Social Media App",
         description:"This is a full-stack chat application using MySQL, Express, Nodejs, JWT authentication and Reactjs in both dark and light mode.",
         tags:[],
         src2:'/chatty_social.png',
@@ -26,7 +26,7 @@ export const Work = [
     {
         id:3,
         heading:"Mobile",
-        name:"Chat App",
+        name:"Social Media App",
         description:"This is a flutter application for both iOS and Android, with Dart,Nodejs,Mysql and Rethink database for the backend.",
         tags:[],
         src:'/Friendy.png',
