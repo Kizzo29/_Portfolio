@@ -274,18 +274,18 @@ const MySkillsPage = () => {
         <Develope width={40} height={40} fill = 'currentColor'/> Web Developer
         </Title>
         <Description>
-        I enjoy front-end web development.
+        I enjoy full-stack web development.
         </Description>
         <Description>
         <strong>Skills</strong>
         <p>
-        Javascript, Nextjs, React, Html, Css, StyledComponents,Firebase.
+        Javascript, Nodejs, Express, MySql, Nextjs, React, Html, Css, StyledComponents, Sass.
         </p>
         </Description>
         <Description>
         <strong>Tools</strong>
         <p>
-        VScode, Github, Illustrator, PhotoShop.
+        VScode, Github, Figma, Illustrator, PhotoShop.
         </p>
        
         </Description>
