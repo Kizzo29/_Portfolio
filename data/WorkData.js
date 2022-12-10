@@ -3,7 +3,7 @@ export const Work = [
         id:1,
         heading:"Web",
         name:"Social App",
-        description:"This is a full-stack chat application using MySQL, Express, Nodejs, JWT authentication and Reactjs in both dark and light mode.",
+        description:"This is a full-stack social application using MySQL, Express, Nodejs, JWT authentication and Reactjs in both dark and light mode.",
         tags:[],
         src2:'/chatty_social.png',
         src:'/homeS8.png',
