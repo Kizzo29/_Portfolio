@@ -251,26 +251,6 @@ const MySkillsPage = () => {
         animate={{height: '65vh', opacity:1}}
         transition={{ type: 'spring', duration:2, delay:1 }}>
         <Title>
-        <Apps width={32} height={32} fill='currentColor'/>Mobile App Developer
-        </Title>
-        <Description>
-        I love creating full-stack mobile applications for both iOS and Android.
-        </Description>
-        <Description>
-        <strong>Skills</strong>
-        <p>Dart,Flutter,Mysql, Nodejs, Docker, Rethink database.</p>
-        </Description>
-        <Description>
-        <strong>Tools</strong>
-        <p>VScode,Github.</p>
-        </Description>
-        </Main> 
-     
-        
-        <Main click={click}  initial={{height:0, opacity:0}}
-        animate={{height: '65vh', opacity:1}}
-        transition={{ type: 'spring', duration:2, delay:1 }}>
-        <Title>
         <Develope width={40} height={40} fill = 'currentColor'/> Web Developer
         </Title>
         <Description>
@@ -287,10 +267,29 @@ const MySkillsPage = () => {
         <p>
         VScode, Github, Figma, Illustrator, PhotoShop.
         </p>
-       
         </Description>
-        </Main>  
-      <BigTitle text="SKILLS" top="80%" right="30%" />
+        </Main> 
+        
+        <Main click={click}  initial={{height:0, opacity:0}}
+        animate={{height: '65vh', opacity:1}}
+        transition={{ type: 'spring', duration:2, delay:1 }}>
+        <Title>
+        <Apps width={32} height={32} fill='currentColor'/>Mobile App Developer
+        </Title>
+        <Description>
+        I love creating full-stack mobile applications for both iOS and Android.
+        </Description>
+        <Description>
+        <strong>Skills</strong>
+        <p>Dart,Flutter,Mysql, Nodejs, Docker, Rethink database.</p>
+        </Description>
+        <Description>
+        <strong>Tools</strong>
+        <p>VScode,Github.</p>
+        </Description>
+        </Main> 
+     
+        <BigTitle text="SKILLS" top="80%" right="30%" />
 
         </Box>
         </ThemeProvider>

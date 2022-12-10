@@ -6,7 +6,7 @@ export const Work = [
         description:"This is a full-stack chat application using MySQL, Express, Nodejs, JWT authentication and Reactjs in both dark and light mode.",
         tags:[],
         src2:'/chatty_social.png',
-        src:'',
+        src:'/homeS8.png',
         demo:"https://github.com/Kizzo29/SocialApp",
         github:"https://github.com/Kizzo29/SocialApp"
         
