@@ -55,23 +55,6 @@ margin-top: 2rem;
 }
 
 `
-const StyledPerspective = styled.div`
-perspective: 700;
-
-@media ${device.desktop}{
-
-}
-
-@media ${device.laptop}{
-  
-}
-@media ${device.tablet}{
-  
-}
-@media ${device.mobile}{
-  
-}
-`
 const Container = styled.div` 
 display:flex;
 justify-content: space-evenly;
@@ -320,51 +303,11 @@ const Item = {
 
 const Card = (props) => {
 
-    const y = useMotionValue(0.5)
-  const x = useMotionValue(0.5)
-
-  const rotateY = useTransform(x, [0, 1], [-8, 8], {
-    clamp: true,
-  })
-  const rotateX = useTransform(y, [0, 1], [8, -8], {
-    clamp: true,
-  })
-
-  const onMove = e => {
-    // get position information for the card
-    const bounds = e.currentTarget.getBoundingClientRect()
-    
-    // set x,y local coordinates
-    const xValue = (e.clientX - bounds.x) / e.currentTarget.clientWidth
-    const yValue = (e.clientY - bounds.y) / e.currentTarget.clientHeight
-    
-    // update MotionValues
-    x.set(xValue, true)
-    y.set(yValue, true)
-  }
-
-  const onLeave = () => {
-    
-    
-    // set x,y local coordinates
-    const xValue = 0.5;
-    const yValue = 0.5;
-    
-    // update MotionValues
-    x.set(xValue, true)
-    y.set(yValue, true)
-  }
-
-    const{id, demo,github, tags,name, description,src,src2,heading} = props.data;
+const{id, demo,github, tags,name, description,src,src2,heading} = props.data;
 
     return (
-        <StyledPerspective>
-        <Box key={id} variants={Item} onPointerMove={onMove}
-        onPointerLeave={onLeave}
-        style={{
-          rotateY,
-          rotateX,
-        }} >
+       
+        <Box key={id} variants={Item}>
          <Container>
          <TextBox>
          <h1>{heading}</h1> 
@@ -396,7 +339,6 @@ const Card = (props) => {
          </Git>
         </Footer>
         </Box>
-        </StyledPerspective>
         
     )
 }
