@@ -372,7 +372,7 @@ border-radius: 5px;
 border: 1px solid #2aff8b;
 background: none;
 outline: none;
-font-size:  calc(0.8em + 0.5vw);
+font-size:  calc(0.8em + 0.4vw);
 font-family: "Raleway", sans-serif;
 letter-spacing: 2px;
 
@@ -393,7 +393,7 @@ letter-spacing: 2px;
 }
 
 @media ${device.laptop}{
-  width: 6rem ;
+width: 6rem ;
 height: 1.4rem;
 font-size:  calc(0.6em + 0.5vw);
 

@@ -259,13 +259,13 @@ const MySkillsPage = () => {
         <Description>
         <strong>Skills</strong>
         <p>
-        Javascript, Nodejs, Express, MySql, Nextjs, React, Html, Css, StyledComponents, Sass.
+        Ruby, Ruby on rails, TypeScript, Javascript, Nodejs, Express, MySql, Nextjs, React, Vue.js, Ionic vue, Html, Css, StyledComponents, Sass.
         </p>
         </Description>
         <Description>
         <strong>Tools</strong>
         <p>
-        VScode, Github, Figma, Illustrator, PhotoShop.
+        VScode, Github, Figma.
         </p>
         </Description>
         </Main> 

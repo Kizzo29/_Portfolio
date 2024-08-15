@@ -413,9 +413,9 @@ export default function AboutPage() {
       </Profile>
       </ProfileBorder>
       <AboutText>
-         <p><span><User width={20} height={20} fill={SoloTheme.text}/> </span>I am a self-motivated full-stack developer looking for an opportunity to grow my skills while delivering the best in any project or organisation I work in.</p>
+         <p><span><User width={20} height={20} fill={SoloTheme.text}/> </span>As an experienced full-stack developer, I excel at crafting robust, user-friendly and visually appealing systems that deliver exceptional results.</p>
          <p><span><GradHat width={20} height={20} fill={SoloTheme.text}/> </span> Bsc. Business Information Technology at Malawi University of Science and Technology.</p>
-         <p><span><Location width={20} height={20} fill={SoloTheme.text}/> </span> Blantyre, Malawi.</p>
+         <p><span><Location width={20} height={20} fill={SoloTheme.text}/> </span> Lilongwe, Malawi.</p>
       </AboutText>
       </TabPanel>
 
