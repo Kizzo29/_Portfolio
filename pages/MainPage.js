@@ -245,6 +245,7 @@ right: 6rem;
 top: ${props => props.click ? '19rem' : '8rem'} ; 
 transition: top 1s ease-out;
 }
+
 `
 
 const HeroText = styled.div`
@@ -437,9 +438,9 @@ const TabletText = styled(motion.h1) `
 
 
 const text1 = "A Full Stack Experience"  
-const text2 = "That"
-const text3 = "excites."
-const text4 = "That Excites"
+const text2 = "For"
+const text3 = "Success."
+const text4 = "For Success."
 
 const spanVariants = {
   visible:{y:0, scaleY:1},
@@ -583,7 +584,7 @@ const item = {
 
  <TabletText variants={list} initial='hidden' animate='visible'>
 { text4.split("").map((letter, id) => (
- (letter === 'E') ?  <motion.span variants={item}>  <motion.span  key = {id} variants={spanVariants} initial="visible" whileHover="hover"> &nbsp;{letter}</motion.span></motion.span>
+ (letter === 'S') ?  <motion.span variants={item}>  <motion.span  key = {id} variants={spanVariants} initial="visible" whileHover="hover"> &nbsp;{letter}</motion.span></motion.span>
  :<motion.span variants={item}> 
  <motion.span  key = {id} variants={spanVariants} initial="visible" whileHover="hover">{letter}</motion.span>
  </motion.span>

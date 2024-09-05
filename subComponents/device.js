@@ -4,7 +4,7 @@ laptop: '1024px',
 tablet: '768px',
 mobile: '480px',
 nav:'769px',
-smallmobile: '400px'
+smallmobile: '450px'
 }
 
 export const device = {
