@@ -548,16 +548,16 @@ const item = {
      
      <motion.p>
      { text1.split("").map((letter, id) => { if (letter === 'F')
-            return   <motion.span> 
-            <motion.span  key = {id}> &nbsp;{letter}</motion.span>
-            </motion.span>
-     else if(letter === 'S') return <motion.span> 
+            return (<motion.span> 
+            <motion.span  key={id}> &nbsp;{letter}</motion.span>
+            </motion.span>)
+     else if(letter === 'S') return (<motion.span> 
      <motion.span key={id}> &nbsp;{letter}</motion.span>
-     </motion.span>
+     </motion.span>)
      
-     else if(letter === 'k') return <motion.span> 
+     else if(letter === 'k') return (<motion.span> 
      <motion.span key={id}> {letter}&nbsp;</motion.span>
-     </motion.span>
+     </motion.span>)
 
     
        return(
@@ -584,9 +584,9 @@ const item = {
 
  <TabletText variants={list} initial='hidden' animate='visible'>
 { text4.split("").map((letter, id) => (
- (letter === 'S') ?  <motion.span variants={item}>  <motion.span  key = {id} variants={spanVariants} initial="visible" whileHover="hover"> &nbsp;{letter}</motion.span></motion.span>
+ (letter === 'S') ?  <motion.span variants={item}>  <motion.span  key={id} variants={spanVariants} initial="visible" whileHover="hover"> &nbsp;{letter}</motion.span></motion.span>
  :<motion.span variants={item}> 
- <motion.span  key = {id} variants={spanVariants} initial="visible" whileHover="hover">{letter}</motion.span>
+ <motion.span  key={id} variants={spanVariants} initial="visible" whileHover="hover">{letter}</motion.span>
  </motion.span>
 ))}
  </TabletText>
