@@ -2,7 +2,7 @@ const size = {
 desktop:'1200px',
 laptop: '1024px',
 tablet: '768px',
-mobile: '480px',
+mobile: '695px',
 nav:'769px',
 smallmobile: '450px'
 }
