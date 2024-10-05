@@ -158,9 +158,9 @@ justify-content: center;
 align-items: center;
 
 img{
-  width: 250px;
+  width: 320px;
   margin-left: 0.5rem;
-  object-fit: contain;
+  object-fit: fill;
   filter: drop-shadow(4px 6px 10px #000000);
  
 }
@@ -326,7 +326,7 @@ const{id, demo,github, tags,name, description,src,src2,heading} = props.data;
          </Tags>
          </TextBox>
          <ImageBox>
-          <img src={src2} alt=""/>
+          {/* <img src={src2} alt=""/> */}
           <img src={src} alt=""/>
          </ImageBox>
          </Container>
