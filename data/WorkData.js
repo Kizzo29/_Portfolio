@@ -51,7 +51,7 @@ export const Work = [
         id:5,
         heading:"Mobile",
         name:"Social App",
-        description:"I created a flutter application for both iOS and Android, with Dart,Nodejs,Mysql and Rethink database for the backend.",
+        description:"I created a flutter application for both iOS and Android, with Dart,Nodejs,SQL Lite, BLOC(for state management) and Rethink database for the backend.",
         tags:[],
         src:'/MobileApp.png',
         // src2:'/MobileApp.png',
