@@ -51,12 +51,12 @@ export const Work = [
         id:5,
         heading:"Mobile",
         name:"Social App",
-        description:"I created a flutter application for both iOS and Android, with Dart,Nodejs,SQL Lite, BLOC(for state management) and Rethink database for the backend.",
+        description:"I built this app using Flutter for the screens, Dart for the backend (models, controllers etc.), BLOC for state management, Node.js for file handling or management, SQLite for persistent storage and Rethink DB for real-time database storage",
         tags:[],
         src:'/MobileApp.png',
         // src2:'/MobileApp.png',
-        demo:"https://github.com/Kizzo29/flutter_social_app/tree/master",
-        github:"https://github.com/Kizzo29/flutter_social_app/tree/master"
+        demo:"https://github.com/Kizzo29/flutter_social_app/tree/master/hello_world",
+        github:"https://github.com/Kizzo29/flutter_social_app/tree/master/hello_world"
     },
     {
         id:6,
